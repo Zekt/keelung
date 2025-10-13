@@ -60,6 +60,7 @@ module Keelung
 where
 
 import Control.Monad.Except
+import Control.Monad.Trans
 import Data.ByteString.Char8 qualified as BS
 import Data.Field.Galois (GaloisField)
 import Data.List (intercalate)

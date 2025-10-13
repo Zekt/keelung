@@ -10,6 +10,7 @@ import Data.ByteString.Char8 ()
 import Data.Attoparsec.ByteString as P
 import Data.Int
 import Data.ByteString qualified as BS ( foldr, readFile, ByteString, unpack )
+import Control.Monad (forM_, when)
 import Control.Monad.State
 import Data.List (sort)
 import Debug.Trace (trace)

@@ -89,6 +89,7 @@ module Keelung.Monad
 where
 
 import Control.Arrow (left)
+import Control.Monad (foldM, replicateM)
 import Control.Monad.Except
 import Control.Monad.State.Strict hiding (get, put)
 import Control.Monad.Writer
